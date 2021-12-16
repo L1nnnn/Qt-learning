@@ -18,20 +18,8 @@
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "mainwindow.h"
-#include  "test.h"
-
-#include <QApplication>
-#include <QMainWindow>
-#include <QDebug>
-
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    QMainWindow w;
-    w.show();
-    int res=test(1,1);
-    qInfo()<<"res="<<res;
 
-    return a.exec();
+    return 0;
 }
